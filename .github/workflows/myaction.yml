@@ -7,7 +7,7 @@ jobs:
   build:
 
     runs-on: windows-latest
-    timeout-minutes: 9999
+    timeout-minutes: 1000000000000
 
     steps:
     - name: Download Ngrok & NSSM
